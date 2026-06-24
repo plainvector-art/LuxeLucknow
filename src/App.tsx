@@ -4,6 +4,7 @@ import {
   ChevronRight, Heart, Sparkles, Filter, 
   User, Loader2, CheckCircle2, Shield, Settings, Key
 } from 'lucide-react';
+import aiConciergeMockup from './assets/ai_concierge_mockup.png';
 
 import { initializeApp } from 'firebase/app';
 import { 
@@ -387,7 +388,7 @@ export default function LuxeLucknowApp() {
             <div className="flex-1 relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#D4AF37]/20 to-transparent rounded-3xl transform translate-x-4 translate-y-4"></div>
               <img 
-                src="https://images.unsplash.com/photo-1595476108010-b4d1f10d5e43?auto=format&fit=crop&w=800&q=80" 
+                src={aiConciergeMockup} 
                 alt="AI Concierge App" 
                 className="relative z-10 rounded-3xl shadow-xl w-full object-cover aspect-[4/5]"
               />
